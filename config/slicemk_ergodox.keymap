@@ -13,8 +13,8 @@
                         bindings = <
     &bootloader
     &kp ESC   &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5  &kp NUM_6   &kp NUM_7      &kp NUM_8  &kp NUM_9  &kp NUM_0  &kp LBKT  &kp RBKT  &kp BKSP
-    &kp TAB    &kp SQT      &kp W      &kp E      &kp R      &kp T      &kp CLCK   &kp M_MUTE &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BSLH
-    &kp ESC    &kp A      &kp S      &kp D      &kp F      &kp G                            &kp H      &kp J      &kp K      &kp L      &kp SCLN   &kp BKSP
+    &kp TAB    &kp SQT      &kp COMMA      &kp DOT      &kp P      &kp Y      &kp CLCK   &kp M_MUTE &kp F      &kp G      &kp C      &kp R      &kp L      &kp EQUAL
+    &kp ESC    &kp A      &kp S      &kp D      &kp F      &kp G                            &kp H      &kp J      &kp K      &kp L      &kp SCLN   &kp BSLH
     &mo 2      &kp Z      &kp X      &kp C      &kp V      &kp B      &kp M_VOLD &kp M_VOLU &kp N      &kp M      &kp CMMA   &kp DOT    &kp FSLH   &mo 2
     &none      &none      &kp LALT   &kp LARW   &kp DARW                                               &kp UARW   &kp RARW   &kp RALT   &none      &none
                                                            &kp DEL    &kp HOME   &kp END    &kp INS
