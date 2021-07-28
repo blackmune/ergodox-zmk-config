@@ -23,16 +23,16 @@
     &kp LCTRL      &kp LWIN      &kp LALT   &kp GRAVE   &kp CAPS                                               &kp LARW   &kp DARW   &kp UARW   &kp RARW      &none
                                                            &kp INS    &kp SLCK   &kp PSCRN    &kp PAUSE_BREAK
                                                                       &kp PGUP   &kp PGDN
-                                                &kp RET    &kp HOME                         &kp END   &kp SPC
-                                                                      &kp LGUI   &mo 1
+                                                &kp RET    &kp BKSP                         &kp END   &kp SPC
+                                                                      &kp HOME   &kp DEL
                         >;
                 };
 
                 LAYER1 {
                         bindings = <
     &bootloader
-    &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &none      &bt BT_CLR
-    &none      &kp F1     &kp F2     &kp F3     &kp F4     &none      &none      &none      &none      &none      &none      &none      &none      &out OUT_USB
+    &none      &none      &none      &none      &none      &none      &none      &kp KP_N7      &kp KP_N8      &kp KP_N9      &none      &none      &none      &bt BT_CLR
+    &none      &kp F1     &kp F2     &kp F3     &kp F4     &none      &none      &none      &none      &kp KP_N7      &kp KP_N7      &kp KP_N7      &none      &out OUT_USB
     &to 2      &kp F5     &kp F6     &kp F7     &kp F8     &none                            &none      &none      &none      &none      &none      &out OUT_BLE
     &none      &kp F9     &kp F10    &kp F11    &kp F12    &none      &none      &none      &none      &none      &none      &none      &none      &none
     &none      &none      &none      &none      &none                                                  &none      &none      &none      &none      &out OUT_TOG
